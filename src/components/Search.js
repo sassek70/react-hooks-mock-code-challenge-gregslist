@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Search({listings, searchResults}) {
+function Search({searchResults}) {
   const [query, setQuery] = useState("")
 
 
